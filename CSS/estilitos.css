@@ -1,0 +1,74 @@
+/*----- Body -----*/
+body {
+    background: linear-gradient(rgba(29, 29, 29, 0.5) 0%, rgba(29, 29, 29,.50) 100%), url(../IMG/66054.jpg);
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+/*----- Header -----*/
+header nav a{
+    display: inline-block;
+    padding: 7px 0;
+    color: rgb(224, 184, 72);
+    text-decoration: none;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid rgb(134, 72, 0);
+    border-radius: 10px;
+    background: #137200;
+    align-items: center;
+    padding: 10px;
+}
+header nav a:hover,
+header nav a.activo{
+    background: rgb(13, 160, 0);
+    color: #ffffff;
+}
+header h1{
+    color: antiquewhite;
+    text-align: center;
+}
+nav {
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin-left: 120px;
+}
+
+/*----- Footer -----*/
+footer a{
+    display: inline-block;
+    padding: 7px 0;
+    color: rgb(224, 184, 72);
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgb(134, 72, 0);
+    border-radius: 10px;
+    background: #137200;
+    align-items: center;
+    padding: 10px;
+}
+
+footer a:hover{
+    background: rgb(13, 160, 0);
+    color: #ffffff;
+}
+
+/*----- Div -----*/
+div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 4px solid rgb(134, 72, 0);
+    border-radius: 7px;
+    font-size: 20px;
+    color: #a06d3d;
+}
+div h4{
+    color: #57854e;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
